@@ -32,4 +32,12 @@ class FizzBuzzShould {
     fun return_fizzbuzz_if_the_number_is_multiple_of_5_and_3 () {
         assertThat(fizzBuzz.get(15)).isEqualTo("FizzBuzz")
     }
+
+    @Test
+    fun return_fizz_if_number_contains_3 () {
+        assertThat(fizzBuzz.get(13)).isEqualTo("Fizz")
+        assertThat(fizzBuzz.get(31)).isEqualTo("Fizz")
+    }
+
+
 }

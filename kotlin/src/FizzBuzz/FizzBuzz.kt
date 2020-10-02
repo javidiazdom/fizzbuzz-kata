@@ -19,4 +19,3 @@ class FizzBuzz {
         return number.toString()
     }
 }
-
