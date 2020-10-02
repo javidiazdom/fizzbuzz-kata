@@ -25,6 +25,6 @@ public class FizzBuzzShould {
 
     @Test
     public void return_buzz_if_the_number_is_multiple_of_5 () {
-        Assertions.assertThat(this.fizzBuzz.get(30)).isEqualTo("Buzz");
+        Assertions.assertThat(this.fizzBuzz.get(10)).isEqualTo("Buzz");
     }
 }
