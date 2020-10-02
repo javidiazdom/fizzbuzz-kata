@@ -8,3 +8,7 @@ test('returns the same number as input if not multiple of 5 nor 3', () => {
 test('returns fizz when the number passed is multiple of 3', () => {
     expect(fizzbuzz(6)).toBe('Fizz');
 })
+
+test('returns buzz when the number passed is multiple of 5', () => {
+    expect(fizzbuzz(10)).toBe('Buzz');
+})
