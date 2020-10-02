@@ -22,4 +22,6 @@ public class FizzBuzzShould {
     public void return_fizz_if_the_number_is_multiple_of_3 () {
         Assertions.assertThat(this.fizzBuzz.get(6)).isEqualTo("Fizz");
     }
+
+    
 }
