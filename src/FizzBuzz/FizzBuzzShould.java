@@ -39,4 +39,9 @@ public class FizzBuzzShould {
         Assertions.assertThat(this.fizzBuzz.get(31)).isEqualTo("Fizz");
     }
 
+    @Test
+    public void return_buzz_if_number_contains_5 () {
+        Assertions.assertThat(this.fizzBuzz.get(52)).isEqualTo("Buzz");
+    }
+
 }
