@@ -17,4 +17,9 @@ class FizzBuzzShould {
         assertThat(fizzBuzz.get(22)).isEqualTo("22")
         assertThat(fizzBuzz.get(0)).isEqualTo("0")
     }
+
+    @Test
+    fun return_fizz_if_the_number_is_multiple_of_3 () {
+        assertThat(fizzBuzz.get(6)).isEqualTo("Fizz");
+    }
 }
