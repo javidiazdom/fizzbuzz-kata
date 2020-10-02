@@ -32,4 +32,11 @@ public class FizzBuzzShould {
     public void return_fizzbuzz_if_multiple_of_both_3_and_5 () {
         Assertions.assertThat(this.fizzBuzz.get(15)).isEqualTo("FizzBuzz");
     }
+
+    @Test
+    public void return_fizz_if_number_contains_3 () {
+        Assertions.assertThat(this.fizzBuzz.get(13)).isEqualTo("Fizz");
+        Assertions.assertThat(this.fizzBuzz.get(31)).isEqualTo("Fizz");
+    }
+
 }
