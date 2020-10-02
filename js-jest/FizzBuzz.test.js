@@ -6,11 +6,11 @@ test('returns the same number as input if not multiple of 5 nor 3', () => {
 })
 
 test('returns fizz when the number passed is multiple of 3', () => {
-    expect(fizzbuzz(6)).toBe('Fizz');
+    expect(fizzbuzz(6)).toBe('Fizz')
 })
 
 test('returns buzz when the number passed is multiple of 5', () => {
-    expect(fizzbuzz(10)).toBe('Buzz');
+    expect(fizzbuzz(10)).toBe('Buzz')
 })
 
 test('returns fizzbuzz if the number is multiple of 5 and 3', () => {
@@ -18,9 +18,14 @@ test('returns fizzbuzz if the number is multiple of 5 and 3', () => {
 }) 
 
 test('returns fizz if the number contains 3', () => {
-    expect(fizzbuzz(31)).toBe('Fizz');
+    expect(fizzbuzz(31)).toBe('Fizz')
 })
 
 test('returns buzz if the number contains 5', () => {
-    expect(fizzbuzz(52)).toBe('Buzz');
+    expect(fizzbuzz(52)).toBe('Buzz')
+})
+
+test('returns undefined when not passed a number', () => {
+    expect(fizzbuzz('fizzbuzz')).toBe(undefined)
+    expect(fizzbuzz([1])).toBe(undefined)
 })
