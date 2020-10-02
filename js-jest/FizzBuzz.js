@@ -8,7 +8,7 @@ function fizzbuzz(number) {
     if ((number % 3 == 0)||((""+number).includes("3"))) {
         return "Fizz"
     }
-    if (number % 5 == 0) {
+    if ((number % 5 == 0)||((""+number).includes("5"))) {
         return "Buzz"
     }
     return ""+number
