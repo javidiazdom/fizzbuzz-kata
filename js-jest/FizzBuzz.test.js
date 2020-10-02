@@ -16,3 +16,7 @@ test('returns buzz when the number passed is multiple of 5', () => {
 test('returns fizzbuzz if the number is multiple of 5 and 3', () => {
     expect(fizzbuzz(15)).toBe('FizzBuzz')
 }) 
+
+test('returns fizz if the number contains 3', () => {
+    expect(fizzbuzz(31)).toBe('Fizz');
+})
