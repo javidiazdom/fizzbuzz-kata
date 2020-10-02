@@ -22,4 +22,9 @@ class FizzBuzzShould {
     fun return_fizz_if_the_number_is_multiple_of_3 () {
         assertThat(fizzBuzz.get(6)).isEqualTo("Fizz");
     }
+
+    @Test
+    fun return_buzz_if_the_number_is_multiple_of_5 () {
+        assertThat(fizzBuzz.get(10)).isEqualTo("Buzz");
+    }
 }
