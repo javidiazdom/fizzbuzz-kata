@@ -41,7 +41,7 @@ class FizzBuzzShould {
 
     @Test
     fun return_buzz_if_number_contains_5 () {
-        assertThat(fizzBuzz.get(51)).isEqualTo("Buzz")
+        assertThat(fizzBuzz.get(52)).isEqualTo("Buzz")
     }
 
 

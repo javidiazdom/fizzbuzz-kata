@@ -13,7 +13,7 @@ class FizzBuzz {
         if ((number % 3 == 0)||(number.toString().contains("3"))) {
             return "Fizz"
         }
-        if (number % 5 == 0) {
+        if ((number % 5 == 0)||(number.toString().contains("5"))) {
             return "Buzz"
         }
         return number.toString()
