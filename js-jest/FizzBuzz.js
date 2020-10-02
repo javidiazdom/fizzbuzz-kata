@@ -1,5 +1,3 @@
-const { type } = require("os");
-
 function fizzbuzz(number) {
     if (typeof number != 'number') {
         return (void 0)
