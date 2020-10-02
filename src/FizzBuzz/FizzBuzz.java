@@ -12,7 +12,7 @@ public class FizzBuzz {
         if ((number % 3 == 0)||(str_number.contains("3"))) {
             return "Fizz";
         }
-        if (number % 5 == 0) {
+        if ((number % 5 == 0)||(str_number.contains("5"))) {
             return "Buzz";
         }
         return str_number;
